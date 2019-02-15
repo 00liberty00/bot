@@ -9,13 +9,12 @@ import org.telegram.telegrambots.exceptions.TelegramApiException;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 public class Main {
 
     public static void main(String[] args) {
 
         // TODO Initialize Api Context
-         ApiContextInitializer.init();
+        ApiContextInitializer.init();
 
         // TODO Instantiate Telegram Bots API
         TelegramBotsApi botsApi = new TelegramBotsApi();
